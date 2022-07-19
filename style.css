@@ -5,6 +5,13 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+/*** mobile ***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -236,13 +243,6 @@ input::placeholder {
   font-size: 14px;
 }
 
-/*** mobile ***/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /*** tablet => sm  768***/
 @media (min-width: 768px) {
   .container {
@@ -295,6 +295,10 @@ input::placeholder {
   .col-sm-12 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .logo {
+    text-align: center;
+    margin: 10px;
   }
 }
 /*** laptop => md 992***/
@@ -416,15 +420,10 @@ input::placeholder {
   .hidden-xs {
     display: none;
   }
-}
-.menu {
-  overflow-x: auto;
-}
-
-.menu::-webkit-scrollbar {
-  width: 0;
-}
-
-.header {
-  height: 100px;
+  .menu {
+    overflow-x: auto;
+  }
+  .logo {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

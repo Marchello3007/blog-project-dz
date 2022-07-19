@@ -8,6 +8,14 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+/*** mobile ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .container {
     width: 100%;
     padding-left: 15px;
@@ -227,12 +235,7 @@ input::placeholder {
     font-size: 14px;
 }
 
-/*** mobile ***/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 /*** tablet => sm  768***/ 
@@ -299,6 +302,11 @@ input::placeholder {
 .col-sm-12 {
     flex: 0 0 100%;
     max-width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin: 10px;
 }
 
 
@@ -384,6 +392,7 @@ input::placeholder {
     margin-bottom: 0px;
 }
 
+
 }
 
 
@@ -468,26 +477,18 @@ input::placeholder {
     .hidden-xs {
         display: none;
     }
-}
+
 
 .menu {
     overflow-x: auto;
 }
 
-.menu::-webkit-scrollbar {
-    width: 0;
-}
-
 .logo {
-    // text-align: center;
+    text-align: center;
     // margin: 10px;
 }
 
-.header {
-    height: 100px;
 }
-
-
 
 
 
