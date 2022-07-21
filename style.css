@@ -128,12 +128,18 @@ header {
   display: none;
 }
 
+.search-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .search {
   display: flex;
   border: 2px solid #a4aead;
   border-radius: 3px;
   font-family: semi;
-  justify-content: space-between;
+  justify-content: flex-end;
+  width: 195px;
 }
 
 input {
@@ -188,6 +194,8 @@ input::placeholder {
 
 .nav {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .block-1 {
@@ -241,6 +249,11 @@ input::placeholder {
   font-family: "Quattrocento Sans", sans-serif;
   font-weight: bold;
   font-size: 14px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 7px;
 }
 
 /*** tablet => sm  768***/
@@ -297,8 +310,7 @@ input::placeholder {
     max-width: 100%;
   }
   .logo {
-    text-align: center;
-    margin: 10px;
+    justify-content: center;
   }
 }
 /*** laptop => md 992***/
@@ -359,6 +371,9 @@ input::placeholder {
   }
   .nav {
     margin-bottom: 0px;
+  }
+  .logo {
+    justify-content: start;
   }
 }
 /*** desktop => lg 1200***/
@@ -424,6 +439,6 @@ input::placeholder {
     overflow-x: auto;
   }
   .logo {
-    text-align: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
