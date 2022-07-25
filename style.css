@@ -262,7 +262,7 @@ input::placeholder {
   font-size: 36px;
   color: #292f36;
   text-transform: uppercase;
-  padding-left: 25px;
+  padding-left: 42px;
   padding-top: 75px;
   padding-bottom: 50px;
 }
@@ -404,6 +404,126 @@ input::placeholder {
 
 .person:hover .person-photo {
   opacity: 50%;
+}
+
+.block-3 {
+  width: 100%;
+  background-color: #3a454d;
+  display: flex;
+}
+
+.lovely {
+  color: #ffffff;
+  padding-left: 40px;
+}
+
+.lovely-work {
+  position: relative;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.lovely-work-photo {
+  width: 100%;
+}
+
+.lovely-work:hover img {
+  opacity: 70%;
+}
+
+.lovely-work:hover .lovely-work-text {
+  display: block;
+}
+
+.lovely-work-text {
+  height: 60px;
+  width: calc(100% - 30px);
+  background-color: #292f36;
+  color: #ffffff;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 15px;
+  display: none;
+  cursor: pointer;
+}
+
+.btns-center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-show-me-more {
+  height: 44px;
+  width: 151px;
+  margin: 60px;
+}
+
+.block-4 {
+  padding-bottom: 80px;
+}
+
+.what-we-do {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 84px;
+  text-align: center;
+}
+
+.we-do-text h4 {
+  color: #292f36;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 70px;
+}
+
+.we-do-text p {
+  color: #8d8f92;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.block-5 {
+  padding-bottom: 115px;
+  background-color: #3a454d;
+}
+
+.features-photo {
+  width: 100%;
+}
+
+.features-text h4 {
+  color: #ffffff;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 50px;
+}
+
+.features-text p {
+  color: #dcdfe1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding-top: 23px;
+}
+
+.block-7 {
+  padding-bottom: 115px;
+}
+
+.map {
+  width: 100%;
 }
 
 /*** tablet => sm  768***/
@@ -603,5 +723,8 @@ input::placeholder {
   .soc-square {
     width: 55px;
     height: 55px;
+  }
+  .features {
+    padding-bottom: 70px;
   }
 }/*# sourceMappingURL=style.css.map */
